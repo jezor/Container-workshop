@@ -1,1 +1,1 @@
-podman push quay.io/pie3aq/debian-mysql:1.0.0
+podman push quay.io/xynoptica/debian-mysql:1.0.0

@@ -1,6 +1,9 @@
 # Użyj debian jako obrazu bazowego
 FROM docker.io/library/debian:latest
 
+# Ustawienie imienia i nazwiska autora
+MAINTAINER Paweł Straszkiewicz <p@devps.cloud>
+
 # Zdefiniuj argumenty, które mogą być ustawione podczas budowania obrazu
 ARG MYSQL_ROOT_PASSWORD
 ARG MYSQL_DATABASE
